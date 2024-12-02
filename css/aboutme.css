@@ -1,0 +1,126 @@
+.aboutme{
+    margin-left: 300px;
+    margin-top: 0px;
+    
+  }
+  
+body {
+  margin-top: 500px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px; 
+    padding: 0px;
+    margin-top: 0px;
+  }
+  
+  .about {
+    margin-top: 600px;
+    margin-left: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1500px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .about h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    border: 1px solid #73a6bc;
+    max-width: 1150px;
+    width: 100%;
+    padding: 10px; /* Adjust padding to control the space inside the border */
+    margin: 0 auto; /* Center-aligns the box */
+    font-size: 55px; /* Adjust the text size here */
+    letter-spacing: 20px; /* Adjust the letter spacing here */
+  }
+
+
+  .section {
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .section h2 {
+    margin-top: 30px;
+    color: #555;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 40px; 
+  }
+
+  .section h3 {
+    margin-top: 30px;
+    color: #555;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 33px; 
+  }
+  
+  /* Skill bars */
+  .skills-container {
+    background: #79c9af; /* Background color for the box */
+    border: 2px solid #79c9af; /* Border color and thickness */
+    border-radius: 3px; /* Rounded corners */
+    padding: 10px; /* Space inside the box */
+    margin: 10px auto; /* Space outside the box and centering */
+    max-width: 1500px; /* Maximum width of the box */
+    box-shadow: 0 4px 8px rgba(219, 156, 156, 0.667); /* Optional shadow for depth */
+  }
+  .boxtext{
+    color: #000000;
+  }
+  
+  .skill {
+    margin-bottom: 15px;
+  }
+  
+  .skill p {
+    margin: 0 0 5px;
+    color: #000000;
+  }
+  
+  .skill-bar {
+    position: relative;
+    background: #f3f0f0bd;
+    border-radius: 5px;
+    height: 20px;
+    overflow: hidden;
+  }
+
+
+  
+  /* Quote slider */
+  .quote-slider {
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .quote {
+    margin-top:20px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    font-size: 16px;
+    color: #555;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .quote.active {
+    opacity: 1;
+  }
+  

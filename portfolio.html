@@ -1,0 +1,478 @@
+<title>Portfolio</title>
+ <link rel="icon" href="img/favicon.PNG">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ <link rel="stylesheet" href="css/style.css">
+
+
+<main>
+  <div class="nav_portfolio">
+
+    <header id="header" class="header bg-dark d-flex flex-column">
+
+        <div class="profile-img">
+            <img src="img/p2.jpg" alt="" class="img-fluid rounded-circle">
+        </div>
+        <a href="" class="logo d-flex align-items-center justify-content-center">
+          <h1 class="name text-center">Michaela B. Peñalosa</h1>
+        </a>
+
+        <!-- social icons -->
+         <div class="social-links">
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+         </div>
+   
+
+         <nav id="navmenu" class="navmenu vh-100">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="aboutme.html"><i class="bi bi-file-earmark-person"></i> About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="resume.html"><i class="bi bi-file-person"></i> Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="portfolio.html"><i class="bi bi-file-earmark-person-fill"></i> Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="services.html  "><i class="bi bi-person"></i> Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="contact.html  "><i class="bi bi-person"></i> Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdwon-toggle"href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-arrow-down-circle-fill"></i> Dropdown Link</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item"href="#">Action</a></li>
+                <li><a class="dropdown-item"href="#">Another action</a></li>
+                <li><a class="dropdown-item"href="#">Something else</a></li>
+              </ul>
+            </li>
+          </ul>
+       </nav>
+</header>
+</div>
+
+<body>
+<div class="portfolio">
+  <h1 class="text-center mt-4">MY PORTFOLIO</h1>
+  <p class="text-center">Welcome,Enjoy Browsing! </p>
+
+      <div class="text-center mb-4">
+        <button class="btn btn-primary filter-btn" data-category="all">All</button>
+        <button class="btn btn-secondary filter-btn" data-category="website">Websites</button>
+        <button class="btn btn-success filter-btn" data-category="apps">Applications</button>
+        <button class="btn btn-info filter-btn" data-category="games">Games</button>
+      </div>
+
+
+<!-- PROJECTS -->
+<div class="card-container row g-4">
+  <div class="card-websites" data-category="website">
+    <img src="img/website.png" class="card-img-top" alt="Project Image">
+    <div class="card-body">
+      <h1 class="card-text"> Square Space </h1>
+      <p>A modern, responsive website for a creative studio showcasing portfolios, services, and client testimonials.</p>
+      <p>Role: Lead front-end developer</p>
+      <p>HTML5, CSS, JavaScript, Bootstrap, Adobe XD, GitHub</p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">View Details</button>
+    </div>
+  </div>
+
+  <div class="card-game" data-category="games">
+    <img src="img/game_cod.jpg" class="card-img-top" alt="Project Image">
+    <div class="card-body">
+      <h1 class="card-text">Call of Duty</h1>
+      <p>Players control an infantry soldier in combat, using authentic firearms from World War II</p>
+      <p>Role: Back-end developer</p>
+      <p>C, C++, </p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-4">View Details</button>
+    </div>
+  </div>
+
+  <div class="card-websites" data-category="website">
+    <img src="img/website2.jpg" class="card-img-top" alt="Project Image">
+    <div class="card-body">
+      <h1 class="card-text">Lifestyle Fitness Gym</h1>
+      <p>A responsive website for a fitness gym with services, membership details, and a booking system.</p>
+      <p>Role: Front-end developer</p>
+      <p>HTML5, CSS3, JavaScript, Bootstrap, PHP, MySQL</p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">View Details</button>
+    </div>
+  </div>
+
+  <div class="card-game" data-category="games">
+    <img src="img/game_clash.jpg" class="card-img-top" alt="Project Image">
+    <div class="card-body">
+      <h1 class="card-text">Clash of Clans</h1>
+      <p>An online multiplayer strategy game published by Supercell.You can build your own  community, train troops and attack other players. You can join a clan of players or start your own clan and invite friends. You can interact with other players through in-game messaging and voice chat.   
+
+      </p>
+      <p>Role: Front-end developer</p>
+      <p>Unity3D, Swift, C#, Java</p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-5">View Details</button>
+    </div>
+  </div>
+
+  <div class="card-application" data-category="apps">
+    <img src="img/application2.jpg" class="card-img-top" alt="Project Image">
+    <div class="card-body">
+      <h1 class="card-text">Netflix</h1>
+      <p>A video streaming app allowing users to browse, watch, and receive recommendations for movies and series.</p>
+      <p>Role: Full-stack developer, responsible for UI design, video playback, and recommendation features.</p>
+      <p>React, Node.js, MongoDB, AWS S3, Firebase</p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-7">View Details</button>
+    </div>
+  </div>
+
+  <div class="card-game" data-category="games">
+    <img src="img/game_candy.jpg" class="card-img-top" alt="Project Image">
+    <div class="card-body">
+      <h1 class="card-text">Candy Crush</h1>
+      <p>players complete levels by swapping colored pieces of candy on a game board to make a match of three or more of the same color, eliminating those candies from the board and replacing them with new ones, which could potentially create further matches.</p>
+      <p>Role: Developed tank mechanics, physics, and upgrade system.</p>
+      <p>Java, C#</p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-6">View Details</button>
+    </div>
+  </div>
+
+  <div class="card-websites" data-category="website">
+    <img src="img/web_empire.jpg" class="card-img-top" alt="Project Image">
+    <div class="card-body">
+      <h1 class="card-text">Empire</h1>
+      <p>A website that brings you the very best entertainment news and reviews from a hugely passionate team of dedicated film experts.</p>
+      <p>Role: Lead front-end developer</p>
+      <p>Javascript, HTML5, CSS3, PHP, and Java. L</p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">View Details</button>
+    </div>
+  </div>
+
+  <div class="card-application" data-category="apps">
+    <img src="img/application3.png" class="card-img-top" alt="Project Image">
+    <div class="card-body">
+      <h1 class="card-text">Spotify</h1>
+      <p>A music streaming app with search, playlist creation, and personalized recommendations.</p>
+      <p>Role: Front-end developer, focused on UI, real-time search, and playlist management.</p>
+      <p>React, Redux, Spotify API, Node.js, Firebase</p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-8">View Details</button>
+    </div>
+  </div>
+
+  
+  <div class="card-application" data-category="apps">
+    <img src="img/app_angkas.jpg" class="card-img-top" alt="Project Image">
+    <div class="card-body">
+      <h1 class="card-text">Angkas</h1>
+      <p>A ride-hailing app for booking rides, real-time tracking, and secure payments.</p>
+      <p>Role: Lead developer, implemented location tracking, route optimization, and payment integration.</p>
+      <p>React Native, Google Maps API, Firebase, Stripe API, Node.js</p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-9">View Details</button>
+    </div>
+  </div>
+
+</div>
+
+
+
+<!-- MODAL -->
+<div class="modal fade" id="modal-1" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"> 
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Square Space Website</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/website.png" class="img-fluid" alt="Square Space Website Image">
+      <h1>Square Space</h1>
+      <div class="text-center">
+        <a href="https://www.example.com" target="_blank">Visit Square Space Website</a>
+      </div>      
+      <hr>
+        <h5>Description:</h5>
+        <p>Square Space is a responsive and visually appealing website designed for a creative studio. It showcases the studio's portfolio, services, and client testimonials. The website features a modern, minimalist design with smooth animations and an intuitive user interface. Key components of the site include image galleries, a contact form, and a blog section to share updates.</p>
+        <h5>Role in the Project:</h5>
+        <p>As the lead front-end developer, I was responsible for creating the overall layout, implementing the user interface design, and ensuring that the website is responsive across different devices. I worked closely with the UI/UX designer to bring the creative vision to life and integrated dynamic features such as image galleries and forms.</p>
+        <h5>Tools/Technologies Used:</h5>
+        <p>
+          HTML5: For structuring the content of the website. <br>
+          CSS3: For styling and making the website responsive, ensuring a mobile-first approach. <br>
+          JavaScript (Vanilla JS): Used for creating interactive features like image sliders and form validations. <br>
+          Bootstrap: Utilized for responsive grid layouts and component styles. <br>
+          jQuery: For smooth animations and additional interactivity on the site. <br>
+          Adobe XD: For design mockups and collaborating with the design team. <br>
+          GitHub: For version control and collaborative development.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="modal-2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"> 
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Lifestyle Fitness Gym Website</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/website2.jpg" class="img-fluid" alt="Lifestyle Fitness Gym Website Image">
+      <h1>Lifestyle Fitness Gym</h1>
+      <div class="text-center">
+        <a href="https://www.example.com" target="_blank">Visit Lifestyle Fitness Gym Website</a>
+      </div>      
+      <hr>
+        <h5>Description:</h5>
+        <p>A user-friendly website for a fitness gym that provides information on available services, membership plans, and class schedules. The site includes a blog section for health tips, an online booking system, and a contact form for inquiries.</p>
+        <h5>Role in the Project:</h5>
+        <p>Front-end developer responsible for implementing the design, creating the layout, and ensuring the site is fully responsive. I also integrated the booking system and worked closely with the backend team for smooth data management.</p>
+        <h5>Tools/Technologies Used:</h5>
+        <p>
+          HTML5: For structuring the content of the website. <br>
+          CSS3: For styling and making the website responsive, ensuring a mobile-first approach. <br>
+          JavaScript (Vanilla JS): Used for creating interactive features like image sliders and form validations. <br>
+          Bootstrap: Utilized for responsive grid layouts and component styles. <br>
+          jQuery: For smooth animations and additional interactivity on the site. <br>
+          Adobe XD: For design mockups and collaborating with the design team. <br>
+          GitHub: For version control and collaborative development.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal-3" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"> 
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Empiret Website </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/web_empire.jpg" class="img-fluid" alt="Empire Website Image">
+      <h1>Be Event </h1>
+      <div class="text-center">
+        <a href="https://www.example.com" target="_blank">Visit Empire Website</a>
+      </div> 
+      <hr>
+        <h5>Description:</h5>
+        <p>"Empire" is a website that brings you the very best entertainment news and reviews from a hugely passionate team of dedicated film experts</p>
+        <h5>Role in the Project:</h5>
+        <p>Front-end developer responsible for implementing the design, creating the layout, and ensuring the site is fully responsive. I also integrated the booking system and worked closely with the backend team for smooth data management.</p>
+        <h5>Tools/Technologies Used:</h5>
+        <p>
+          HTML5: For structuring the content of the website. <br>
+          CSS3: For styling and making the website responsive, ensuring a mobile-first approach. <br>
+          JavaScript (Vanilla JS): Used for creating interactive features like image sliders and form validations. <br>
+          Bootstrap: Utilized for responsive grid layouts and component styles. <br>
+          jQuery: For smooth animations and additional interactivity on the site. <br>
+          Adobe XD: For design mockups and collaborating with the design team. <br>
+          GitHub: For version control and collaborative development.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal-4" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"> 
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Call of Duty Game </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/game_cod.jpg" class="img-fluid" alt="Lifestyle Fitness Gym Website Image">
+      <h1>Subway Surfers</h1>
+      <div class="text-center">
+        <a href="https://www.example.com" target="_blank">Visit Call of Duty</a>
+      </div> 
+      <hr>
+        <h5>Description:</h5>
+        <p>"Call Of Duty" the world-renowned first-person shooter (FPS) franchise that has entertained players for decades. Whether you're a newcomer to the world of Call of Duty, or a long-serving veteran, there's a diversity of experiences available that cater to a variety of tastes and abilities.</p>
+        <h5>Role in the Project:</h5>
+        <p>I worked as a game designer and developer, focusing on creating levels, designing obstacles, and fine-tuning the game's difficulty curve. I integrated the coin and power-up systems and worked on the user interface (UI) to ensure smooth navigation and an engaging experience. Additionally, I optimized the game for both mobile and desktop platforms, ensuring it runs efficiently across different devices.</p>
+        <h5>Tools/Technologies Used:</h5>
+        <p>
+          Unity, C#, Firebase (for leaderboards), Java
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal-5" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"> 
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Clash of Clans</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/game_clash.jpg" class="img-fluid" alt="Lifestyle Fitness Gym Website Image">
+      <h1>Clash of Clans </h1>
+      <div class="text-center">
+        <a href="https://www.example.com" target="_blank">Visit Clash of Clans</a>
+      </div> 
+      <hr>
+        <h5>Description:</h5>
+        <p>"Clash of Clans"  you build your village, raise a clan, and compete in epic Clan Wars! Mustachioed Barbarians, fire wielding Wizards, and other unique troops are waiting for you! Enter the world of Clash!</p>
+        <h5>Role in the Project:</h5>
+        <p>As the lead game developer, I was responsible for implementing core gameplay mechanics, including character movement, combat systems, and enemy AI behavior. I also integrated multiplayer features using Photon Networking, ensuring smooth real-time interactions and minimized latency. Additionally, I focused on optimizing game performance for both smooth gameplay and minimal load times.</p>
+        <h5>Tools/Technologies Used:</h5>
+        <p>
+          Unity, C#, Photon Networking, Adobe Photoshop, GitHub
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal-6" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"> 
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Candy Crush</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/game_candy.jpg" class="img-fluid" alt="Lifestyle Fitness Gym Website Image">
+      <h1>Tank Raid</h1>
+      <div class="text-center">
+        <a href="https://www.example.com" target="_blank">Visit Candy Crush</a>
+      </div> 
+      <hr>
+        <h5>Description:</h5>
+        <p>"Candy Crush" a "match three" game, where the core gameplay is based on swapping two adjacent candies among several on the gameboard to make a row or column of at least three matching-colored candies. On this match, the matched candies are removed from the board, and candies above them fall into the empty spaces, with new candies appearing from the top of the board. This may create a new matched set of candies, which is automatically cleared in the same manner.</p>
+        <h5>Role in the Project:</h5>
+        <p>I was the lead developer, responsible for designing and coding the tank movement mechanics, collision detection, and physics simulations. I also developed the power-up system and integrated an upgrade mechanism, allowing players to improve their tanks as they progress. I worked on optimizing the game for better performance, ensuring smooth gameplay even on lower-end devices.</p>
+        <h5>Tools/Technologies Used:</h5>
+        <p>
+          Unity, C#, Blender, Adobe Illustrator, GitHub
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal-7" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"> 
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Netflix Application</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/application2.jpg" class="img-fluid" alt="Lifestyle Fitness Gym Website Image">
+      <h1>Netflix</h1>
+      <div class="text-center">
+        <a href="https://www.example.com" target="_blank">Visit Netflix</a>
+      </div> 
+      <hr>
+        <h5>Description:</h5>
+        <p>A comprehensive video streaming platform similar to Netflix that allows users to browse a catalog of movies and TV shows, receive personalized recommendations, and play HD video content. The app includes features such as genre sorting, search functionality, and user profile management, providing a smooth and immersive viewing experience across devices.</p>
+        <h5>Role in the Project:</h5>
+        <p>As a full-stack developer, I was responsible for designing the responsive user interface, implementing the video playback and buffering logic, and creating a recommendation algorithm that suggests content based on user watch history and preferences. I also worked on integrating account management features with Firebase for authentication, enabling users to create, update, and secure their profiles.</p>
+        <h5>Tools/Technologies Used:</h5>
+        <p>
+          React (for the front-end interface), Node.js and Express (for the back-end server), MongoDB (for data storage), AWS S3 (for storing video content), and Firebase Authentication (for managing secure logins and user profiles).
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal-8" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"> 
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Spotify Application</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/application3.png" class="img-fluid" alt="Lifestyle Fitness Gym Website Image">
+      <h1>Spotify</h1>
+      <div class="text-center">
+        <a href="https://www.example.com" target="_blank">Visit Spotify</a>
+      </div> 
+      <hr>
+        <h5>Description:</h5>
+        <p>A music streaming application modeled after Spotify, allowing users to discover and stream a vast collection of songs, create and share playlists, and follow their favorite artists. The app includes real-time search, curated playlists based on user history, and artist pages for a fully personalized experience.</p>
+        <h5>Role in the Project:</h5>
+        <p>As the front-end developer, I led the design of a clean and user-friendly interface, implementing real-time search and playlist management features. I collaborated with back-end developers to integrate the Spotify API, allowing access to real-time data and creating a smooth listening experience with responsive controls and a well-organized music library.</p>
+        <h5>Tools/Technologies Used:</h5>
+        <p>
+          React and Redux (for front-end state management), Firebase Authentication (for secure user logins), Spotify API (for music data and playlists), Node.js and MongoDB (for the back-end server and database), and CSS for custom styling and animations.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal-9" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"> 
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Uber Application</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/app_angkas.jpg" class="img-fluid" alt="Lifestyle Fitness Gym Website Image">
+      <h1>Uber</h1>
+      <div class="text-center">
+        <a href="https://www.example.com" target="_blank">Visit Angkas</a>
+      </div> 
+      <hr>
+        <h5>Description:</h5>
+        <p> the Philippines' first app-based motorcycle ride-hailing platform. Angkas is a safe and affordable solution to providing an easier way to travel in the country's congested urban areas.</p>
+        <h5>Role in the Project:</h5>
+        <p>As the lead developer, I implemented real-time location tracking with Google Maps API, developed a smooth route optimization feature, and integrated Stripe API for secure payments. I worked extensively on creating a seamless map interface, ensuring accurate driver and rider locations, and collaborated on back-end development for booking management and ride history.</p>
+        <h5>Tools/Technologies Used:</h5>
+        <p>
+          React Native (for mobile application development), Google Maps API (for real-time map tracking), Firebase (for authentication and real-time data storage), Stripe API (for payment processing), Node.js and Express (for the back-end), and MongoDB (for storing user and ride data).
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="js/typed.js/portfolio.js"></script>
+
+</body>
+</main>

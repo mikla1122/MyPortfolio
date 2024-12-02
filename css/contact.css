@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #map {
+    height: 400px;
+    width: 100%;
+  }
+  
+  .social-icon {
+    margin: 10px;
+    color: #7d7070;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #2c93ed;
+  }
+  
+  .contact{
+    margin-left: 300px;
+    margin-top: 0px;
+  }
